@@ -87,6 +87,6 @@ SOC = SOC_{pred} + K (V_{actual} - V_{est})
 
 ---
 
-## 👤 Author
+## Author
 
-Nirmith Emmanuel Puneet
+Nirmith Puneet
