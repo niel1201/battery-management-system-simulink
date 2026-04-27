@@ -45,25 +45,6 @@ This project presents the design and implementation of a Battery Management Syst
 
 ---
 
-## Key Equations
-
-SOC estimation:
-[
-SOC = SOC_0 - \frac{1}{Q} \int I dt
-]
-
-Thermal model:
-[
-\frac{dT}{dt} = \frac{I^2 R}{C_{th}} - \frac{T - T_{amb}}{R_{th} C_{th}}
-]
-
-Kalman update:
-[
-SOC = SOC_{pred} + K (V_{actual} - V_{est})
-]
-
----
-
 ## Tools Used
 
 * MATLAB Simulink
